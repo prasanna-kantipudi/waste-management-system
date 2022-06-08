@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+
+:root {
+    --primary-color: #404040;
+    --off-white: #F3F4F6;
+    --dark-gray: #6b7280
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0
+}
+
+.container {
+    padding: 0 1rem
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto
+}
+
+.link {
+    text-decoration: none;
+    padding: .5rem 1rem;
+    margin: 1rem 0
+}
+.link:hover{    
+    background-color: #155e75;
+    border-radius: 0.4rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: .5rem;
+    color: #fff
+}
+
+.list-non-bullet {
+    list-style: none
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0 .5rem
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem
+}
+
+.navigation .nav-brand {
+    font-weight: 700
+}
+
+.navigation .nav-pills {
+    text-align: right
+}
+
+.navigation .link {
+    color: #fff
+}
+
+.navigation .link-active {
+    font-weight: 700
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    color: #fff;
+    margin-top: 6rem
+}
+
+.footer .footer-header {
+    font-weight: 700;
+    font-size: large
+}
+
+.footer .link {
+    color: #fff
+}
+
+.text-primary-color {
+    color: var(--primary-color)
+}
+
+.form-content {
+    padding: .4rem;
+    margin-top: 4rem;
+    font-size: 1.8rem;
+    -webkit-box-shadow: 0 0 5px 2px rgba(176, 164, 176, 1) !important;
+    -moz-box-shadow: 0 0 5px 2px rgba(176, 164, 176, 1) !important;
+    box-shadow: 0 0 5px 2px rgba(176, 164, 176, 1) !important;
+    transition: all .3s ease-in-out !important;        
+}
+
+.form-content:hover {    
+    box-shadow: -3px 18px 20px 0 rgba(99, 89, 99, 1) !important
+}
+
+
+.form-control {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 1.5rem
+}
+
+#sbtn {
+    margin-top: 1.2rem;
+    background-color: #22223b;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    width: 5rem;
+    height: 2.1rem;
+    border: none;
+    border-radius: .5rem
+}
+#sbtn:hover{
+    background-color:#581c87;
+}
+
+.navlogout{
+    display: inline;            
+    font-size: 1.3rem;
+    border-radius: 0.6rem;        
+}
+
+.navlogout:hover{
+    background-color: #155e75;
+    color: white;
+    overflow: hidden;
+}
+
+input{
+    outline:none;
+    border: none;    
+}
+
+form{
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.37);
+}
+
+fieldset{
+    border: none;    
+}
